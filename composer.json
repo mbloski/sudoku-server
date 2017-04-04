@@ -1,0 +1,26 @@
+{
+    "name": "blo/sudoku-server",
+    "description": "WebSocket sudoku server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bloski",
+            "email": "michael@blo.ski",
+            "homepage": "http://blo.ski",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/mbloski/sudoku-server/issues"
+    },
+    "require": {
+        "hoa/websocket": "^3.17",
+        "geoip/geoip": "^1.17",
+        "abcaeffchen/sudoku-php": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
